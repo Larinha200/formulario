@@ -2,6 +2,7 @@ body {
     background-color: #D9D9D9;
     margin: 0;
     padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
@@ -17,8 +18,8 @@ body {
     width: 30%;
     padding-top: 40px;
     margin: 0 auto;
+    margin-left:380px;
     font-size: 36px;
-    font-family:Arial, Helvetica, sans-serif
     
 }
 
@@ -26,5 +27,26 @@ body {
     color: #42D3FF;
     width: 30%;
     margin: 0 auto;
-    font-family:Arial, Helvetica, sans-serif
+    margin-left:380px;
+    margin-top:10px;
+    
+    
+}
+
+.retan2 {
+    width: 40% ;
+    height: 300px;
+    margin:0 auto;
+    border-radius: 10px;
+    background-color: #ffffff;  
+    margin-top: -80px;
+    padding:65px;
+    padding-top:30px;
+}
+
+.retan2 h2{
+
+   margin-left: 10px;
+   margin-top:5px;
+   text-align: left;
 }
