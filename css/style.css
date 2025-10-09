@@ -57,6 +57,7 @@ body {
     width: 100%;
     height: 30px;
     
+    
 
 }
 
@@ -128,10 +129,25 @@ body {
     border-radius:5px;        
      
 }
-#titulo, #link, #num, #info {
+#titulo, #link, #num {
     width: 100%;      
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #e4e4e8;
     margin-top: 5px;
+}
+
+ #info{
+    width: 103.5%;  
+    right: 700px;    
+    padding-bottom: 120px;
+    border-radius: 5px;
+    border: 1px solid #e4e4e8;
+    margin-top: 5px;
+  }
+  #email, #senha{
+    border: 1px solid #e4e4e8;
+  }
+.retan2 hr{
+    border: 1px solid #e4e4e8;
 }
