@@ -69,4 +69,39 @@ body {
     border-radius:5px;
 }
 
-.checkbox
+.checkbox{
+    appearance: none;  
+    
+}
+.data input{
+    width:150px;
+    right: 70px;
+    padding: 10px ;
+    outline: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.das input{
+    width:150px;
+    right: 60px;
+    padding: 10px;
+    outline: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+
+.ate input{
+
+    width:150px;
+    right: 50px;
+    padding: 8px;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.horas {
+    display: flex;
+    ;
+}
