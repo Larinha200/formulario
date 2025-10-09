@@ -14,9 +14,32 @@
     <div class="retan2">
         <h2>Informações do Evento</h2>
         <hr>
-        <form></form>
-        <label for="titulo">Título do evento</label>
-         <input type="text" id="titulo" >
+        <form>
+        
+        <label for="titulo">Título do evento <small> (mínimo 8 caracteres)</small></label>
+            <input type="text" id="titulo" minlength="8" required >
+
+        <label for="link">Link do evento <small> (comece com https://)</small></label>
+            <input type="text" id="link">
+
+        <label for="num">Whatsapp para contato <small> (somente números)</small></label>
+            <input type="tel" id="num" inputmode="numeric" pattern="[0-9]*" required>
+        
+        <label  for="info">Informações  extras</label>
+            <input type="text" id="info">
+        
+        <label for="categoria" placeholder="Tipos de evento" >Categoria</label>
+        <select id="categoria" >
+            <option disabled selected hidden>Tipos de evento</option>
+            <option>Casamento</option>
+            <option>Show</option>
+            <option>Workshop</option>
+            <option>Aniversario</option>
+            <option>Reunião</option>
+            <option>Outro</option>
+        </select>
+        
+        </form>
     </div>
     
     
